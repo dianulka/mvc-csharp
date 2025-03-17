@@ -1,0 +1,13 @@
+@model MvcGooodBoooks.Models.TopRatedBookViewModel
+
+@{
+    ViewData["Title"] = "Top Rated Book";
+}
+
+<h1>Top Rated Book</h1>
+
+<div>
+    <h2>@Model.Title</h2>
+    <p>Author: @Model.Author</p>
+    <p>Average Rating: @Model.AverageRating</p>
+</div>

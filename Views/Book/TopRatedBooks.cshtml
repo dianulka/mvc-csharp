@@ -1,0 +1,23 @@
+@model IEnumerable<MvcGooodBoooks.Models.TopRatedBookViewModel>
+
+<h2>Top 3 Highest Rated Books</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>Author</th>
+            <th>Average Rating</th>
+        </tr>
+    </thead>
+    <tbody>
+    @foreach (var book in Model)
+    {
+        <tr>
+            <td>@book.Title</td>
+            <td>@book.Author</td>
+            <td>@book.AverageRating</td>
+        </tr>
+    }
+    </tbody>
+</table>
