@@ -8,7 +8,7 @@ Aplikacja GooodBoooks pozwala dodawać przeczytane przez siebie książki do wir
 - Sorowanie książek: sortowanie książek po najwyższych ocenach.
 
 # Bazy danych
-Aplikacja zawiera poniższe bazy danych:
+Aplikacja zawiera poniższe tabele w bazie danych:
 - Autorzy
 - Książki
 - Czytelnicy
